@@ -1,5 +1,9 @@
 # MechaCar_Statistical_Analysis
 
+# Overview
+MechaCar is having production troubles that is causing problems for the maufactoring team. AutosRUs' has requested that the data analysis team perform a mutiple linear regression analysis to determine which variable predict miles per gallon, collect summary statistics on the PSI of the suspension coils, and run t-tests to determine if the sample maufacturing lots are statistically different from the mean population.
+
+
 # Results
 
 ### Linear Regression to Predict MPG 
@@ -27,6 +31,10 @@ PSI across all maufactoring lots has a p-value of 0.06028, therefore assuming ou
 ![image](https://user-images.githubusercontent.com/104471775/185820715-9f0070c9-bfc6-4a14-a7df-8c71dcff02b1.png)
 
 The p-value for Lot 1 is 1 and the p-value for Lot 2 is 0.6072, both of these are higher than the significance level of 0.05, therefore we would state that the mean of Lots 1 and 2 are significantly different then the population mean of 1500 PSI. Lot 3, with a p-value of 0.04168, therefore Lot 3 does not have a mean siginficantly different than the population mean of 1500 PSI.
+
+## Study Design: MechaCar vs Competition
+
+A comparison study could be performed between MechaCar and it's competitor's to test whether there is a statistcal difference in city highway fuel efficiency.  The null hypothesis would be that if the weight of MechaCar vehicles are the same as thier competitors then there will be no statiscal difference in city or highway fuel efficiency.  To test this hypothesis, you could perform a two-sample test or an ANOVA test depending on the number of competitors that will be compared to MechaCar.  To perform this test you would need the weight of each car and the miles per gallon each car.
 
 
 
